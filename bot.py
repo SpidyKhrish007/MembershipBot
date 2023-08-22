@@ -12,10 +12,10 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     level=logging.INFO)
 
 # Set up bot and group IDs
-TOKEN = 'YOUR_TOKEN_HERE'
-group_id = GROUP_ID_HERE
+TOKEN = '6492737948:AAFOTDjxkx7e0lhvHf7JMBz-EjcIQstn1tA'
+group_id = -1001986931762
 
-OWNER_ID = OWNER_ID
+OWNER_ID = 1867884587
 DATA_FILE = 'schedule.json' # Path to JSON that stores all data about memberships
 CODES_FILE = 'codes.txt' # Path to TXT that stores all codes to be redeemed
 

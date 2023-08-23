@@ -12,7 +12,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     level=logging.INFO)
 
 # Set up bot and group IDs
-TOKEN = '6492737948:AAG3JzSXqcthrjKJWtvVCPFlgfBfz4KtyYY'
+TOKEN = '6492737948:AAFOOb0dlkP-E3Ek_pD16vmbKHKm2O5x070'
 group_id = -1001986931762
 
 OWNER_ID = 1867884587

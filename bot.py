@@ -1,5 +1,3 @@
-# Code made by https://github.com/EduContin
-
 import logging
 import telegram
 import json
@@ -12,12 +10,12 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     level=logging.INFO)
 
 # Set up bot and group IDs
-TOKEN = '6492737948:AAFOTDjxkx7e0lhvHf7JMBz-EjcIQstn1tA'
+TOKEN = 'YOUR_BOT_TOKEN_HERE'
 group_id = -1001986931762
 
 OWNER_ID = 1867884587
-DATA_FILE = 'schedule.json' # Path to JSON that stores all data about memberships
-CODES_FILE = 'codes.txt' # Path to TXT that stores all codes to be redeemed
+DATA_FILE = 'schedule.json'  # Path to JSON that stores all data about memberships
+CODES_FILE = 'codes.txt'  # Path to TXT that stores all codes to be redeemed
 
 bot = telegram.Bot(TOKEN)
 
@@ -172,7 +170,8 @@ def main():
     logging.info("Bot started")
     updater.idle()
 
+
+# ... (Your start, read_data, write_data, remove_user, redeem, load_jobs, and main functions from bot.py)
+
 if __name__ == '__main__':
     main()
-
-# Code made by https://github.com/EduContin

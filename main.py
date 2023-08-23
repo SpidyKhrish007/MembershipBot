@@ -9,7 +9,6 @@ import time
 while True:
     # Open the bot.py file using the subprocess module
     bot_process = subprocess.Popen(['python', 'bot.py'])
-    
     # Wait for given amount of seconds
     time.sleep(43200) # That's 12 hours
     
